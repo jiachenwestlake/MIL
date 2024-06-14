@@ -2,6 +2,22 @@
 Code for the paper "[Memory-Based Invariance Learning for Out-of-Domain Text Classification](https://aclanthology.org/2023.emnlp-main.101.pdf)"
 
 
+### Introduction
+The code is built based on the open-source toolkit [OpenPrompt](https://github.com/thunlp/OpenPrompt). 
+
+### Requirements
+```
+python >= 3.7
+torch >= 1.10.0
+transformers >= 4.10.0
+```
+
+### Usage
+```
+python experiments/cli.py --config_yaml classification_manual_prompt.yaml 
+```
+
+
 ### Citation
 When you use the our paper, we would appreciate it if you cite the following:
 ```
