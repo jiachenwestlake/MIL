@@ -13,6 +13,10 @@ transformers >= 4.10.0
 ```
 
 ### Usage
+**Dataset**
+The full preprocessed datasets are available at [Dir](https://pan.baidu.com/s/1ZExBE3M4hJAF8jR8Da0ydg?pwd=jiac)
+
+**Training command**
 ```
 python experiments/cli.py --config_yaml classification_manual_prompt.yaml 
 ```
